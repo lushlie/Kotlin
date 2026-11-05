@@ -1,6 +1,6 @@
 fun main() {
 
-  //while loop
+  //1.while loop
     var num = 20  //set first value
 
     while (num <= 25){  //condition
@@ -8,7 +8,7 @@ fun main() {
         num ++ //increasing (-- decreasing)
     }
 
-//do...while loop
+//2.do...while loop
    var number = 20
 
     do{    //starts loop
@@ -16,7 +16,7 @@ fun main() {
         number++   //increases
     }while (number <=25)   //if true loop repeats
 
-    //for loop
+    //3.for loop
     for (x in 20 .. 25){  //(.. -means to)
         println("no $x")
     }

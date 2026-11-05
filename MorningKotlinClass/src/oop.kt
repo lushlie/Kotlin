@@ -1,10 +1,8 @@
-//sketch or blueprint
-class Dog{
-    var color = "black"
-    var age = 2
-    var breed = "german shepherd"
+//class - sketch or blueprint of object
+class Dog(var color : String, var age : Int, var breed : String ){  //parameter
 
-    fun bark(){
+
+    fun bark(){      //behaviour
         println("Woof! woof")
     }
     fun tail(){
@@ -12,9 +10,13 @@ class Dog{
     }
 }
 
-//object or final
+//object or final - instance of a class
 fun main() {
 
-    var dog1 = Dog()
-    var dog2 = Dog()
+    var dog1 = Dog("black", 2, "Siberian Husky")
+    println(dog1.breed)
+    println(dog1.color)
+
+
+    var dog2 = Dog("brown", 1, "Chihuahua")
 }
